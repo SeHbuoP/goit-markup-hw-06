@@ -403,16 +403,41 @@
             </li>
           </ul>
         </div>
+        <div class="sign">
+          <p class="sign-label">Підпишіться на розсилку</p>
+          <form class="footer-form">
+            <input type="text" class="sign-input" name="user-email" placeholder="E-mail">
+            <button type="submit" class="sign-button">Підписатися </button>
+          </form>
+        </div>
       </div>
+    
     </footer>
 
     <div class="bagdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="model-button" data-modal-close>
-          <svg class="icon-model" width="11px" height="11px">
+          <svg class="icon-model" width="18px" height="18px">
             <use href="./images/icon.svg#icon-Vector"></use>
           </svg>
         </button>
+        <p class="modal-name">Залиште свої дані, ми вам передзвонимо</p>
+        <form class="modal-form">
+            
+            <label class="modal-label"> 
+              Ім'я
+              <input type="text" name="user-name" class="modal-input">
+            </label>
+            <label  class="modal-label"> 
+              Телефон
+              <input type="tel" name="user-tel" class="modal-input">
+            </label>
+            <label  class="modal-label"> 
+              Пошта
+              <input type="email" name="user-email" class="modal-input">
+            </label>
+        </form>
+        
       </div>
     </div>
     <script src="./js/modal.js"></script>
